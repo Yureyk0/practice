@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "SegoeUI"; /* Имя шрифта */
+    src: url("../fonts/SegoeUI.ttf"); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: "SegoeUIBold"; /* Имя шрифта */
+    src: url("../fonts/segoeuib.ttf"); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: "SegoeUISB"; /* Имя шрифта */
+    src: url("../fonts/seguisb.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Segoe UI Light";
+    src: url("../fonts/segoeuil.ttf");
+}

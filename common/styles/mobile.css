@@ -1,0 +1,212 @@
+@media screen and (max-width: 500px) {
+    /*HEADER*/
+    *{
+        /*border: 1px solid red;*/
+    }
+    /*.burger-menu{*/
+        /*height: 40px;*/
+        /*width: 100%;*/
+    /*}*/
+    /*header>.container{*/
+        /*padding: 0;*/
+    /*}*/
+    /*nav>li{*/
+        /*display: block;*/
+    /*}*/
+    /*.container{*/
+        /*position: relative;*/
+    /*}*/
+    /*.container>nav>ul{*/
+        /*display: block;*/
+        /*!*width: 100%;*!*/
+    /*}*/
+    /*.burger-line{*/
+        /*position: absolute;*/
+        /*top: 10px;*/
+        /*left: 40px;*/
+        /*right: 10px;*/
+        /*width: 35px;*/
+        /*height: 2px;*/
+        /*background-color: white;*/
+        /*z-index: 10;*/
+        /*display: block;*/
+    /*}*/
+    /*.burger-menu>label{*/
+        /*position: absolute;*/
+        /*left: 40px;*/
+        /*top: 10px;*/
+        /*width: 35px;*/
+        /*height: 25px;*/
+    /*}*/
+    /*.first{*/
+        /*transition: .5s all;*/
+    /*}*/
+    /*.second, .third{*/
+        /*top: 20px;*/
+        /*transition: .5s all;*/
+    /*}*/
+    /*.fourth{*/
+        /*top: 30px;*/
+        /*transition: .5s all;*/
+    /*}*/
+    /*.main-menu{*/
+        /*!*background: #4bcaff;*!*/
+        /*display: block;*/
+        /*position: absolute;*/
+        /*width: 100% !important;*/
+        /*max-height: 0;*/
+        /*font-size: 0;*/
+        /*overflow: hidden;*/
+        /*top: 40px;*/
+        /*padding: 40px 0 0 40px;*/
+        /*transition: .5s all;*/
+    /*}*/
+    /*#check-menu:checked ~ .main-menu{*/
+        /*max-height: 300px;*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*#check-menu:checked ~ .first{*/
+        /*display: none;*/
+    /*}*/
+    /*#check-menu:checked ~ .second{*/
+        /*transform:rotate(45deg);*/
+    /*}*/
+    /*#check-menu:checked ~ .third{*/
+        /*transform:rotate(-45deg);*/
+    /*}*/
+    /*#check-menu:checked ~ .fourth{*/
+        /*display: none;*/
+    /*}*/
+    /*#check-menu:checked ~ .burger-menu{*/
+        /*background: black;*/
+    /*}*/
+    .main-menu{
+        padding: 0 0 0 60%;
+    }
+    .burger-menu>label{
+        margin: 0 0 0 85%;
+        /*width: 40px;*/
+        /*height: 40px;*/
+        /*z-index: 15;*/
+        /*border: 1px solid red;*/
+    }
+    .burger-line{
+        left: 85%;
+    }
+    .background>img{
+        height: 40px;
+        width: auto;
+    }
+    .background{
+        margin-left: 9%;
+    }
+    .block_videos{
+        width: 100%;
+        height: auto;
+        content: url("../media/preload.jpg");
+    }
+    .block_videos>video{
+        display: none;
+    }
+    /*SERVICES*/
+    .services_slider_wrapper h2{
+        margin: 0;
+    }
+    .services_slider{
+        margin-top: 0;
+    }
+    .slider__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    /*PRICES*/
+    .product{
+        width: 85%;
+        margin-bottom: 35px;
+    }
+    .prices h2 {
+        padding: 20px;
+        font-size: 22px;
+    }
+    .back{
+        padding: 15px;
+        font-size: 12px;
+    }
+    .block_info{
+        flex-direction: column;
+    }
+    .block_info p{
+        text-align: center;
+    }
+    /*service*/
+    .services_slider, .clients_slider{
+        padding: 30px 0;
+    }
+    /*FOOTER*/
+    .footer_name{
+        font-size: 14px;
+    }
+    .block_info p {
+        padding: 10px;
+    }
+    #myBtn{
+        font-size: 14px;
+    }
+    /*form*/
+    .form_block .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form{
+        width: 100%;
+    }
+    form{
+        justify-content: center;
+        padding: 0 10px 0 10px;
+    }
+    form>button{
+        margin:0 auto 30px auto;
+    }
+    .contact{
+        margin-top: 20px;
+    }
+    .contactText {
+        padding-bottom: 15px;
+    }
+    input[type=text]{
+        margin: 15px 0 15px 0;
+    }
+    /*About us*/
+    .aboutUsText>span{
+        padding: 0 15px 0 15px;
+    }
+
+    /*cookies*/
+    section.cookie_mess{
+        height: 100vh;
+    }
+    .cookie_mess p{
+        padding: 0 40px;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .cookie_mess .cookies_butt{
+        border: 1px solid white;
+        padding: 10px 40px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        user-select: none;
+        background-color: white;
+        color: black;
+    }
+    /*back to top*/
+    .upButton{
+        left: 82%;
+    }
+    .upButton>a>img{
+        height: auto;
+        width: 50px;
+    }
+}
+

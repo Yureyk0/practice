@@ -1,0 +1,394 @@
+@media screen and (max-width: 768px) {
+    /*HEADER*/
+    /*.container>nav{*/
+        /*font-size: 12px;*/
+        /*width: 80%;*/
+    /*}*/
+    /*.background img{*/
+        /*width: 50px;*/
+    /*}*/
+    header{
+        height: 60px;
+    }
+    .burger-menu{
+        height: 40px;
+        width: 100%;
+    }
+    header>.container{
+        padding: 0;
+    }
+
+    nav>li{
+        display: block;
+    }
+    .main-menu>ul>li{
+        padding: 5px 0 5px 0;
+    }
+    .visibleDeskClients{
+        display: none;
+    }
+    .visibleTabClients{
+        display: list-item;
+    }
+    .container{
+        position: relative;
+    }
+    .container>nav{
+        padding-top: 0;
+    }
+    .container>nav>ul{
+        display: block;
+        padding: 10px 0 10px 0;
+        /*width: 100%;*/
+    }
+    .burger-line{
+        position: absolute;
+        top: 15px;
+        left: 90%;
+        right: 10px;
+        width: 35px;
+        height: 2px;
+        background-color: white;
+        z-index: 10;
+        display: block;
+    }
+    .burger-menu>label{
+        position: relative;
+        margin: 0 0 0 90%;
+        width: 40px;
+        height: 40px;
+        z-index: 15;
+    }
+    .first{
+        transition: .5s all;
+    }
+    .second, .third{
+        top: 25px;
+        transition: .5s all;
+    }
+    .fourth{
+        top: 35px;
+        transition: .5s all;
+    }
+    .main-menu{
+        display: block;
+        position: absolute;
+        width: 100% !important;
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        background: black;
+        padding: 0 0 0 70%;
+    }
+    #check-menu:checked ~ .main-menu{
+        max-height: 300px;
+        font-size: 16px;
+    }
+    #check-menu:checked ~ .first{
+        display: none;
+    }
+    #check-menu:checked ~ .second{
+        transform:rotate(45deg);
+    }
+    #check-menu:checked ~ .third{
+        transform:rotate(-45deg);
+    }
+    #check-menu:checked ~ .fourth{
+        display: none;
+    }
+    #check-menu:checked ~ .burger-menu{
+        background: black;
+    }
+    .background>img{
+        padding-top: 10px;
+        height: 45px;
+        width: auto;
+    }
+    .background{
+        margin-left: 5%;
+        position: absolute;
+        z-index: 20;
+    }
+    .block_videos{
+        width: 100%;
+        height: auto;
+        content: url("../media/preload.jpg");
+    }
+    .block_videos>video{
+        display: none;
+    }
+    /*SERVICES*/
+    .ToOrder {
+        font-size: 22px;
+    }
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: none;
+    }
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+    .services_slider_wrapper{
+        font-family: "SegoeUI", sans-serif;
+    }
+    .services_slider_wrapper{
+        border-top: 1px solid #356a87;
+        padding: 30px;
+        text-align: center;
+    }
+    .services_slider_wrapper .container{
+        width: 100%;
+        margin: 0;
+    }
+    .services_slider_wrapper h2{
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .serv_slide img{
+        margin: 0 auto;
+    }
+    .serv_slide{
+        margin: 0;
+    }
+    .serv_slide .head_text{
+        margin: 15px auto 0;
+        font-size: 14px;
+        color: #efefef;
+        font-family: "SegoeUI Bold", sans-serif;
+    }
+    .services_slider{
+        padding: 0;
+    }
+    .serv_slide{
+        margin: 10px auto;
+        padding: 0 20px;
+    }
+    .serv_slide img{
+        height: 37px;
+        width: 36px;
+    }
+    .serv_slide p{
+        font-size: 14px;
+        width: 200px;
+        margin: 10px auto;
+    }
+    .serv_slide .sub_text{
+        font-size: 14px;
+    }
+    .circle{
+        height: 87px;
+        width: 87px;
+    }
+    .services_slider ul.slick-dots{
+        left: 0;
+    }
+    /*clients*/
+    .clients{
+        display: none;
+    }
+    .clients_slider_wrapper{
+        display: block;
+    }
+    .clients_slider ul.slick-dots{
+        margin-bottom: -15px;
+    }
+    /* Dots */
+    .slick-dotted.slick-slider
+    {
+        margin-bottom: 30px;
+    }
+    .slick-dots
+    {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+    }
+    .slick-dots li
+    {
+        position: relative;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .slick-dots li button
+    {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 15px;
+        height: 15px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    .slick-dots li button:hover,
+    .slick-dots li button:focus
+    {
+        outline: none;
+    }
+    .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before
+    {
+        opacity: 1;
+    }
+    .slick-dots li button:before
+    {
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 15px;
+        height: 15px;
+        content: '';
+        background: url("../media/slider_circle_solid.svg");
+        text-align: center;
+        opacity: .25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-dots li.slick-active button:before
+    {
+        opacity: .75;
+    }
+    /*Slider*/
+
+    /*PRICES*/
+    .prices h2 {
+        padding: 30px;
+        font-size: 22px;
+    }
+    .product{
+        margin-bottom: 55px;
+    }
+    .name_product{
+        padding: 20px;
+        font-size: 22px;
+    }
+    .prices_count{
+        padding: 10px;
+        font-size: 50px;
+    }
+    .description_prices{
+        padding: 25px;
+        font-size: 16px;
+    }
+    .flip-container, .front, .back {
+        height: 350px;
+    }
+    .back {
+        font-size: 14px;
+        padding: 25px;
+    }
+    /*ABOUT US*/
+    .aboutUsText{
+        max-width: 480px;
+    }
+    .logo{
+        margin-top: 25px;
+    }
+    .logo img{
+       width: 28px;
+        height: 35px;
+    }
+    .aboutUsNameText>span{
+        font-size: 22px;
+        padding: 25px;
+    }
+    .aboutUsText>span{
+        font-size: 14px;
+    }
+    #myBtn {
+        margin: 15px 50px;
+    }
+    /*form*/
+    input[type=text]{
+        font-size: 20px;
+        margin: 60px 0 15px 0;
+    }
+    input[type=email]{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    select{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    textarea{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    form>button{
+        width: 170px;
+        height: 50px;
+        font-size: 20px;
+        margin: 0 0 55px auto ;
+    }
+    .ToOrder{
+        font-size: 20px;
+    }
+    .contact img{
+        width: 30px;
+        height: 40px;
+    }
+    .contactText {
+        font-size: 20px;
+    }
+    .info_contact{
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    /*cookies*/
+
+    section.cookie_mess{
+        height: 35vh;
+    }
+    .cookie_mess p{
+        padding: 0 40px;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .cookie_mess .cookies_butt{
+        border: 1px solid white;
+        padding: 10px 40px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        user-select: none;
+        background-color: white;
+        color: black;
+    }
+    /*back to top*/
+    .upButton{
+        left: 90%;
+    }
+    .picUpBtn:active{
+        opacity: 0.7;
+    }
+
+
+    /*FOOTER*/
+    .footer_name{
+        font-size: 16px;
+        padding: 25px;
+    }
+    .block_info p{
+        padding: 20px;
+        font-size: 11px;
+        color: #fefefe;
+        font-family: "SegoeUI";
+    }
+}
+@media screen and (max-width: 550px) {
+    .ToOrder{
+        font-size: 15px;
+    }
+}
